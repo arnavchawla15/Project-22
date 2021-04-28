@@ -3,7 +3,7 @@ class Player{
         this.x = x;
         this,y = y;
         this.spt = createSprite(this.x,this.y,50,50);
-        this.spt.shpaeColour = "orange";
+        this.spt.shapeColour = "orange";
     }
     move(xdir,ydir){
         this.spt.x += xdir*grid;
